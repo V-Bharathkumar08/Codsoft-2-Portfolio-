@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: url(pic/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+}
+
+.navbar{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo{
+    width: 160px;
+    cursor: pointer;
+    margin-top: -3%;
+    margin-left: -2%;
+}
+
+ul{
+    margin-top: -4%;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: darkslategray;
+    margin-top: -3%;
+    transition: .4s ease;
+
+}
+
+ul li a:hover{
+    color: rgb(230,104,59);
+}
+
+.info{
+    margin-left: 7%;
+    margin-top: 6%;
+}
+
+.info h1{
+    font-size: 65px;
+    color: rgb(36,32,30);
+}
+
+.info h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+.info span{
+    color: rgb(230,104,59);
+}
+
+.info a{
+    text-decoration:  none;
+    color: #fff;
+    background: rgb(36,32,30);
+    margin: 26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: .4s ease;
+}
+
+.info a:hover{
+    background: rgb(59,174,209);
+}
+
+.image{
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+}
+
+.image img{
+    position: absolute;
+    height: 100%;
+    left: 40%;
+    transform: translate(-55%);
+    bottom: 0;
+    transition: left 2s ease;
+}
+
+.image:hover .girl{
+    left: 55%;
+}
+
+.icons a{
+    text-decoration: none;
+    color: #000;
+}
+#about{
+    display:flex;
+    flex-direction:column;
+    height:600px;
+    width:100%;
+    background-color:indianred;
+}
+#about h1{
+    margin:50px;
+    text-align:center;
+    font-weight:bolder;
+    font-size:40px;
+    color:white;
+}
+.about{
+    display: flex;
+}
+.about img{
+    width:800px;
+    height:350px;
+    padding: 0px 10px;
+    margin:0;
+}
+.about p{
+    color:white;
+}
+.about h2{
+    color:cornsilk;
+}
+#skills{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 100%;
+    background-color:rgb(255, 249, 240);
+}
+#skills h1{
+    margin:50px;
+    text-align: center;
+    font-weight: bolder;
+    font-size:40px;
+    color:orange;
+}
+.skills{
+    margin-left: 5%;
+    width:85%;
+    background-color:black;
+    border-radius: 20px;
+}
+.java{
+    width:85%;
+    background-color: grey;
+}
+#skills p{
+    margin-bottom:4px;
+    font-size:22px;
+}
+.python{
+    width:75%;
+    background-color:GREY;
+}
+.dsa{
+    width:75%;
+    background-color: gray;
+}
+.html{
+    width:90%;
+    background-color: gray;
+}
+.css{
+    width:85%;
+    background-color: gray;
+}
+.ps{
+    width:75%;
+    background-color:grey;
+}
+#projects h1{
+    margin:50px;
+    text-align: center;
+    font-weight: bolder;
+    font-size:40px;
+        color:indianred;}
+.login{
+    width: 382px;
+    overflow: hidden;
+    margin: auto;
+    margin: 20 0 0 450px;
+    padding: 80px;
+    background: #23463f;
+    border-radius: 15px ;
+
+}
+h2{
+text-align: center;
+color: #822758;
+padding: 20px;
+}
+label{
+color: #08ffd1;
+font-size: 17px;
+}
+#Uname{
+width: 300px;
+height: 30px;
+border: none;
+border-radius: 3px;
+padding-left: 8px;
+}
+#Pass{
+width: 300px;
+height: 30px;
+border: none;
+border-radius: 3px;
+padding-left: 8px;
+
+}
+#log{
+width: 300px;
+height: 30px;
+border: none;
+border-radius: 17px;
+padding-left: 7px;
+color: rgb(0, 115, 255);
+}
+#projectss h3{
+    margin:50px;
+    text-align: center;
+    font-weight: bolder;
+    font-size:40px;
+        color:indianred;}
+.msd{
+    float:center;
+    width:100%;
+}
+.msd h3{
+    text-align: center;
+    color:darksalmon;
+}
+.msd img{
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height:500px;
+}
+/* Contact Section */
+#contact {
+    text-align: center;
+    padding: 50px;
+}
+
+#contact h4 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+#contact ul li {
+    margin: 10px 0;
+}
+
+#contact ul li a {
+    text-decoration: none;
+}
